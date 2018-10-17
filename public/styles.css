@@ -1,0 +1,1193 @@
+*, html {
+    margin:0;
+    box-sizing: border-box;
+    background: aliceblue;
+}
+
+body {
+    height: 100%;
+}
+
+.logo {
+    color: snow;
+    font-size: 80px;
+    font-family: 'Helvetica Neue';
+    border: 2px solid darkorange;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 11px;
+    background: darkorange;
+    font-weight: lighter;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 0 8px snow;
+}
+
+.appContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-bottom: 1px dashed darkorange;
+}
+
+.app a {
+    font-weight: lighter;
+    font-family: "Helvetica Neue";
+    width: 118px;
+    height: 25px;
+    background-color: darkorange;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+.app a:hover {
+    color: black;
+    background-color: aliceblue;
+    box-shadow: 0 0 2px;
+    text-decoration: none;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom:10px;
+    border: 1px solid darkorange;
+    background-color: aliceblue;
+    width: 225px;
+    height: 30px;
+    resize: none;
+    cursor: pointer;
+}
+
+.area2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-weight: lighter;
+    /* margin-bottom: 10px; */
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px dashed darkorange;
+    /* border-style: hidden; */
+    background-color: inherit;
+    width: 225px;
+    height: 30px;
+    resize: none;
+    cursor: pointer;
+}
+
+.button {
+    font-family: "Helvetica neue";
+    font-weight: lighter;
+    font-size: 15px;
+    width: 287px;
+    height: 38px;
+    padding: 5px;
+    margin: 3px;
+    background-color: darkorange;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: snow;
+    box-shadow: 0 0 2px;
+}
+
+.button2 {
+    position: absolute;
+    font-family: "Helvetica neue";
+    color: snow;
+    /* font-weight: lighter; */
+    font-size: 10px;
+    top: 15px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin: 3px;
+    border-style: hidden;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.button2:hover {
+    color: black;
+    background-color: snow;
+    box-shadow: 0 0 2px;
+}
+
+.buttonDiv {
+    /* background-color: deepskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatRoom {
+    padding: 5px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    border: 4px double deepskyblue;
+    height: 360px;
+    width: 1200px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.chatRoom .px {
+    border-bottom: 1px dashed deepskyblue;
+    width: auto;
+    margin: 5px;
+}
+
+.chatRoom .p1 {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.chatRoom .p2 {
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    margin-left: 6px;
+    margin-bottom: 2.5px;
+}
+
+.chatRoom h5 {
+    padding-top: 5px;
+    font-weight: bold;
+    /* font-weight: lighter; */
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+}
+
+.chatImg {
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 70px;
+    width: 70px;
+}
+
+.chatRoom2 {
+    background-color: aliceblue;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: row;
+}
+.chatRoom3 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.chatRoom3 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+}
+
+.edit {
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    color: snow;
+    background-color: snow;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: darkorange;
+    width: 225px;
+    height: 30px;
+    cursor: pointer;
+    border-style: hidden;
+}
+
+.edit:hover {
+    background-color: snow;
+    color: black;
+    box-shadow: 0 0 2px;
+}
+
+.error {
+    padding-bottom: 7px;
+    font-size: 20px;
+    background: transparent;
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+}
+
+.friendsBio {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: deepskyblue; */
+    /* border: 1px solid deepskyblue; */
+    /* height: 350px; */
+    width: 256px;
+}
+.friendsBioB {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: auto;
+    width: 256px;
+}
+
+.friendsBio #h1 {
+    margin: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    /* background-color: deepskyblue; */
+}
+
+.friendsBioB #h1B {
+    margin: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+.friendsBio2 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornsilk;
+    border: 1px solid darkorange;
+    height: 225px;
+    width: 225px;
+    margin: 10px;
+}
+
+.friendsBio2 h1 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+.friendDiv {
+    font-weight: lighter;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-style: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.friends {
+    font-weight: lighter;
+    font-style: "Helvetica Neue";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    /* background-color: snow; */
+    /* border: 1px solid darkorange; */
+}
+
+.friends h1 {
+    margin-top: 10px;
+    background-color: aliceblue;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    color: black;
+}
+
+.friends p {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+    color: black;
+}
+.friends2 {
+    font-weight: lighter;
+    font-style: "Helvetica Neue";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightcoral;
+    /* border-right: 1px solid darkorange; */
+}
+
+.friends2 h1 {
+    margin-top: 10px;
+    color: snow;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: lightcoral;
+}
+
+.friends2 p {
+    background-color: lightcoral;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    color: snow;
+}
+
+p + #a {
+    background-color: aliceblue !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+p + #b {
+    background-color: lightcoral !important;
+}
+
+.fButton {
+    background-color: darkorange;
+    color: snow;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid darkorange;
+    width: 225px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom:15px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.fButton:hover {
+    background-color: snow;
+    border: 1px solid snow;
+    color: black;
+    box-shadow: 0 0 2px;
+}
+
+.fButton2 {
+    background-color: yellow;
+    color: black;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid yellow;
+    width: 225px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom:15px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.fButton2:hover {
+    background-color: snow;
+    border: 1px solid snow;
+    color: black;
+    box-shadow: 0 0 2px;
+}
+
+.greeting {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    font-size: 50px;
+    font-family: 'Helvetica Neue';
+}
+
+.greeting .a {
+    padding-top: 10px;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+}
+
+.greeting .b {
+    padding: 5px;
+    font-family: 'Helvetica Neue';
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.h2 {
+    background-color: snow;
+    padding-top: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+}
+
+.input {
+    color: black;
+    border: 2px solid darkorange;
+    width: 290px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 15px;
+    font-family: "Helvetica neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+.input:hover {
+    background-color: cornsilk;
+}
+
+.link {
+    font-weight: lighter;
+    font-family: "Helvetica Neue";
+    width: 225px;
+    height: 30px;
+    font-size: 20px;
+    background-color: darkorange;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+    background-color: snow;
+    box-shadow: 0 0 2px;
+    text-decoration: none;
+}
+
+.loading h1 {
+    font-family: 'Helvetica Neue';
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: darkorange;
+}
+
+.upload2 {
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    position: fixed;
+    left: 33%;
+    top: 11%;
+    z-index: 300;
+    border: 1px solid darkorange;
+    border-radius: 50%;
+}
+
+.upload2 h1 {
+    background: aliceblue;
+    font-weight: lighter;
+    font-family: "Helvetica Neue";
+    color: black;
+}
+
+.profileDiv {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profilePic {
+    position: relative;
+    background-color: inherit;
+    height: 118px;
+    width: 118px;
+    z-index: 20;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profilePic2 {
+    position: relative;
+    margin: 10px;
+    height: 225px;
+    width: 225px;
+    z-index: 20;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.profile {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    top: 30%;
+    background-color: aliceblue;
+    /* border-bottom: 1px solid darkorange; */
+}
+
+.profile2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    cursor: pointer;
+    /* background-color: deepskyblue; */
+    width: auto;
+    /* border: 1px solid darkorange; */
+    margin-top: 25px;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-bottom: 9px;
+    left: 0.1%;
+    top: 30%;
+}
+
+
+.profile2a {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.profile2a h1 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile3 {
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.profile3 .h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+.profile3 .h12 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+.profile3a {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.profile3a .h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+.profile3a .h12 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: aliceblue;
+}
+
+/* .profile3b {
+    border-bottom: 1px solid darkorange;
+    padding-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.profile3b .h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.profile3b .h12 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: whitesmoke;
+} */
+
+.profile4 {
+    font-weight: lighter;
+    font-style: "Helvetica Neue";
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    width: auto;
+    /* border: 1px solid darkorange; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 9px;
+    margin-right: 9px;
+    left: 0.1%;
+    top: 30%;
+}
+
+.profile2 h1 {
+    font-weight: lighter;
+    font-family: "Helvetica neue";
+    /* background-color: deepskyblue; */
+    margin-top: 10px;
+}
+
+.pBio {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+    border-style: hidden;
+    color: black;
+    background-color: snow;
+    width: 225px;
+    height: 30px;
+    /* border: 1px dashed darkorange; */
+    cursor: pointer;
+}
+
+.register {
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid darkorange;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 8px snow;
+    z-index: 10;
+}
+
+.string1 {
+    border-top: 1px solid white;
+    position: absolute;
+    top: 172px;
+    width: 100%;
+    box-shadow: 0 0 8px darkorange;
+    z-index: 0.1;
+}
+
+.string2 {
+    border-left: 1px solid white;
+    position: fixed;
+    left: 63px;
+    bottom:0;
+    height: 100%;
+    box-shadow: 0 0 8px darkorange;
+    z-index: 2;
+}
+
+.string3 {
+    border-top: 1px solid white;
+    position: absolute;
+    top: 149px;
+    width: 100%;
+    box-shadow: 0 0 8px deepskyblue;
+    z-index: 0.1;
+}
+
+.string4 {
+    border-right: 1px solid white;
+    position: fixed;
+    left: 88px;
+    bottom:0;
+    height: 100%;
+    box-shadow: 0 0 8px deepskyblue;
+}
+
+.string1a {
+    border-top: 1px solid white;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    box-shadow: 0 0 8px darkorange;
+    z-index: 0.1;
+}
+
+.string3a {
+    border-top: 1px solid white;
+    position: absolute;
+    /* top: 108.5px; */
+    top: 97px;
+    width: 100%;
+    box-shadow: 0 0 8px deepskyblue;
+    z-index: 0.1;
+}
+
+.txtarea {
+    padding:5px;
+    width: 1200px;
+    height: 50px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 17.5px;
+    font-style: italic;
+    /* border-color: Transparent; */
+    background-color: aliceblue;
+    /* border: 1px solid aliceblue; */
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 2px inset;
+    /* border-style: hidden; */
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+
+.upload {
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    width: 420px;
+    position: fixed;
+    left: 35.5%;
+    top: 11%;
+    z-index: 9;
+    border: 1px solid orange;
+}
+
+.uploadInput {
+    transform: translateX(1000%);
+}
+
+.upload p {
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    top: 20px;
+}
+
+.uploadButton {
+    position: absolute;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    /* border: 1px solid ; */
+    color: snow;
+    background-color: darkorange;
+    cursor: pointer;
+    /* box-shadow: 0 0 2px; */
+}
+
+.uploadButton:hover {
+    color: black;
+    background-color: snow;
+    box-shadow: 0 0 2px;
+}
+
+.yourFriends {
+    font-weight: lighter;
+    font-family: "Helvetica Neue";
+    width: 225px;
+    height: 30px;
+    font-size: 20px;
+    background-color: darkorange;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.yourFriends:hover {
+    color: black;
+    background-color: snow;
+    box-shadow: 0 0 2px;
+    text-decoration: none;
+}
+
+.friendsBio h1 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    /* background-color: yellow; */
+}
+
+.userSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    position: absolute;
+    left: 36%;
+    top: 20%;
+}
+
+.userSearch h1 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.search {
+    text-decoration: none;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    /* border: 1px solid darkorange; */
+    box-shadow: 0 0 1px inset;
+    font-size: 15px;
+    width: 203px;
+    height: 24px;
+}
+/* BUBBLES */
+
+#bubbles {
+    height: 100%;
+    width: 100%;
+}
+
+.bubble {
+    z-index: 1;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid lightskyblue;
+	position: fixed;
+    background: transparent;
+}
+.bubble:after {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid lightskyblue;
+	position: absolute;
+	content: "";
+	top: 15px;
+	left: -25px;
+    background: transparent;
+}
+
+/* .bubble.x9:hover {
+    background-color: lightskyblue;
+    background-image: url('./troll.png');
+    background-size: cover;
+} */
+
+.bubble:hover {
+    transform: scale(1.5);
+    transition: 1s;
+    /* background-color: lightskyblue;
+    background-image: url('./peace.png');
+    background-size: cover;
+    -moz-box-shadow: 0 0 40px lightcyan;
+    -webkit-box-shadow: 0 0 40px lightcyan; */
+}
+
+.x1 {
+    left: 100px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.2;
+    -webkit-animation: moveclouds 17s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 17s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -o-animation: moveclouds 17s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.x2 {
+    left: 200px;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -o-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+}
+.x3 {
+    left: 350px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.4;
+    -webkit-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -o-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+.x4 {
+    left: 500px;
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+    opacity: 0.35;
+    -webkit-animation: moveclouds 19s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 19s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -o-animation: moveclouds 19s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+.x5 {
+    left: 50px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 13s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 13s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    -o-animation: moveclouds 13s linear infinite, sideWays 1s ease-in-out infinite alternate;
+}
+.x6 {
+    left: 750px;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -o-animation: moveclouds 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+.x7 {
+    left: 850px;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 14s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 14s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -o-animation: moveclouds 14s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+.x8 {
+    left: 900px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 20s linear infinite, sideWays 6s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 20s linear infinite, sideWays 6s ease-in-out infinite alternate;
+    -o-animation: moveclouds 20s linear infinite, sideWays 6s ease-in-out infinite alternate;
+}
+
+.x9 {
+    left: 1150px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 23s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 23s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    -o-animation: moveclouds 23s linear infinite, sideWays 1s ease-in-out infinite alternate;
+}
+
+.x10 {
+    left: 1200px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.4;
+    -webkit-animation: moveclouds 11s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 11s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -o-animation: moveclouds 11s linear infinite, sideWays 3s ease-in-out infinite alternate;
+}
+
+.x11 {
+    left: 700px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.4;
+    -webkit-animation: moveclouds 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -o-animation: moveclouds 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+}
+
+.x12 {
+    left: 1100px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 17s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 17s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -o-animation: moveclouds 17s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes moveclouds {
+    0% {
+        bottom: 850px;
+    }
+    100% {
+        bottom: -250px;
+    }
+}
+
+@-webkit-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes moveclouds {
+    0% {
+        bottom: 850px;
+    }
+
+    100% {
+        bottom: -250px;
+    }
+}
+
+@-moz-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:100px;
+    }
+}
+@-o-keyframes moveclouds {
+    0% {
+        bottom: 850px;
+    }
+    100% {
+        bottom: -250px;
+    }
+}
+
+@-o-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
